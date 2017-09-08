@@ -1,6 +1,8 @@
 # dyon_to_rust
 Dyon to Rust transpiler
 
+For more information, check the [documentation](https://docs.rs/dyon_to_rust).
+
 ## License
 
 Licensed under either of

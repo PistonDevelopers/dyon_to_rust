@@ -1,0 +1,6 @@
+fn main() {
+    f := \(x) = x + 1
+    println(foo(f))
+}
+
+fn foo(f: \(f64) -> f64) -> f64 {return \f(0)}

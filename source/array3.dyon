@@ -1,0 +1,10 @@
+fn main() {
+    a := [[1, "hi"], [1, 2]]
+    println(a)
+    b := [[1, 2], [foo(), 4]]
+    println(b)
+    c := [[1, 2], []]
+    println(c)
+}
+
+foo() = 3

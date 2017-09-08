@@ -1,0 +1,42 @@
+fn main() {
+    foo_str("hi")
+    foo_f64(4)
+    foo_bool(true)
+    foo_arr_f64([1, 2, 3])
+    foo_arr_bool([true, true, false])
+    foo_arr_str(["hi"])
+    foo_vec4((1, 2))
+    foo_arr_vec4([(1, 2)])
+}
+
+fn foo_str(a: str) {
+    println(a)
+}
+
+fn foo_f64(a: f64) {
+    println(a)
+}
+
+fn foo_bool(a: bool) {
+    println(a)
+}
+
+fn foo_arr_f64(a: [f64]) {
+    println(a)
+}
+
+fn foo_arr_bool(a: [bool]) {
+    println(a)
+}
+
+fn foo_arr_str(a: [str]) {
+    println(a)
+}
+
+fn foo_vec4(a: vec4) {
+    println(a)
+}
+
+fn foo_arr_vec4(a: [vec4]) {
+    println(a)
+}

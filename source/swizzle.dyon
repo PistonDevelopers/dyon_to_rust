@@ -1,0 +1,10 @@
+fn main() {
+    a := (1, 2)
+    println((yx a,))
+    println((xx a,))
+    println((xz a,))
+    println((xz a,))
+    println((zy a,))
+    println((xy a, yx a))
+    println((zxy a,))
+}

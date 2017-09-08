@@ -1,0 +1,7 @@
+fn main() {
+    for i 3 {
+        for j 4 {
+            println(i + j)
+        }
+    }
+}

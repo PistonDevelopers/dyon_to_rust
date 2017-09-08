@@ -1,0 +1,9 @@
+fn main() {
+    a := 2
+    foo(mut a)
+    println(a)
+}
+
+fn foo(mut x: f64) {
+    x = 3
+}
