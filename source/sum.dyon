@@ -1,0 +1,3 @@
+fn main() {
+    println(sum i 4 {i + 1})
+}

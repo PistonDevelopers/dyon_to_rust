@@ -1,0 +1,6 @@
+fn main() {
+    loop {
+        println("hi")
+        break
+    }
+}

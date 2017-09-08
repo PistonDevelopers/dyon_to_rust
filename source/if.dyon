@@ -1,0 +1,10 @@
+fn main() {
+    a := any i 10 {i > 3}
+    if false {
+        println("yes")
+    } else if true {
+        println("maybe")
+    } else {
+        println("no")
+    }
+}

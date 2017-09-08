@@ -1,0 +1,18 @@
+fn main() {
+    a := [1, "hi"]
+    println(a)
+    a2 := [1, false]
+    println(a2)
+    a3 := [false, "hi"]
+    println(a3)
+    a4 := [(1, 3), 1]
+    println(a4)
+    b := [1, 2]
+    println(b)
+    c := [false, true]
+    println(c)
+    d := ["hi", "hello"]
+    println(d)
+    e := [(1, 2), (3, 4)]
+    println(e)
+}

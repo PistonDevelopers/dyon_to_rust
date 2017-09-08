@@ -1,0 +1,13 @@
+[package]
+name = "dyon_to_rust"
+version = "0.1.0"
+authors = ["Sven Nilsen <bvssvni@gmail.com>"]
+description = "Dyon to Rust transpiler"
+documentation = "https://docs.rs/dyon_to_rust"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["dyon", "transpiler", "scripting", "script", "piston"]
+
+[dependencies]
+dyon = "0.24.5"
+piston_meta = "0.29.0"

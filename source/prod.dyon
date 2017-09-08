@@ -1,0 +1,3 @@
+fn main() {
+    println(prod i 3 {i + 1})
+}
