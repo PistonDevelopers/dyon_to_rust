@@ -16,8 +16,8 @@
 //! similar to Javascript, `go` coroutines (like Go) and optional type checking,
 //! and error handling with `?` syntax (like Rust).
 //!
-//! In addition Dyon has a lot of features that for logic (mathematical loops),
-//! problem solving (proof composition trackign using secrets),
+//! In addition Dyon has a lot of features for logic (mathematical loops),
+//! problem solving (proof composition tracking using secrets),
 //! fast generation of text and efficient memory usage (link structure),
 //! 4D vectors and html hex colors, closures and current objects (something better than globals).
 //!
@@ -76,7 +76,7 @@
 //! Therefore, when making changes to the transpiler,
 //! you have to go through all failed cases and check that the code turns out right.
 //!
-//! This workflow is very strict, but it help the confidence that some changes
+//! This workflow is very strict, but it helps the confidence that some changes
 //! will not affect translation of existing code too much.
 //!
 //! There are two special files in the "source" folder:
